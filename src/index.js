@@ -2,7 +2,7 @@ import rp from 'request-promise';
 import merge from 'merge';
 
 class YTS {
-  constructor(url = 'https://yts.to/api/v2/') {
+  constructor(url = 'https://yts.ag/api/v2/') {
     this.apiUrl = url;
 
     this.buildQuery = function(options) {
